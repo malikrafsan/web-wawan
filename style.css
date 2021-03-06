@@ -1,0 +1,122 @@
+:root {
+    --fontkeren: -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen, ubuntu, cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+:root {
+    --bg: #e6e6e6;
+    --huruf: #222222;
+    --bgkontener: #ffffff;
+    --shadow: 20px 20px 60px #cacaca;
+    --bgbutton: #ffffff;
+    --hurufbutton: #333333;
+    --bg_hw: #e6ecff;
+    --huruf_hw: #3363ff;
+    --ae_hw: #dce4ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+
+.aku {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5rem;
+    background-color: black;
+    color: white;
+}
+
+.wawan {
+    margin-top: 20px;
+    display: grid;
+    width: 114rem;
+    grid-gap: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+
+@media (max-width: 60em) {
+    .wawan {
+        grid-gap: 3rem;
+    }
+}
+
+.box {
+    background-color: grey;
+    border-radius: 2rem;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    /* box-shadow: var(--shadow); */
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.dokum {
+    display: block;
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+.click {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.heading {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 2rem;
+    text-align: center;
+    border: none;
+}
+
+.open {
+    display: block;
+}
+
+.click_item {
+    background-position: center;
+    display: block;
+    width: 10%;
+    background-color: cornflowerblue;
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.close {
+    text-align: center;
+    display: none;
+}
