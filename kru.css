@@ -1,0 +1,58 @@
+main {
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.click1 {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(186, 186, 186);
+    margin: auto;
+    text-decoration: none;
+}
+
+.click2 {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(186, 186, 186);
+    margin: auto;
+    text-decoration: none;
+}
+
+.wawan {
+    font-size: 20px;
+    margin-top: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    color: white;
+}
+
+.identitas {
+    text-align: left;
+}
+
+.dokum {
+    grid-gap: 8rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    align-items: start;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.tanggal {
+    text-align: right;
+}

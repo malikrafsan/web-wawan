@@ -52,6 +52,10 @@ main {
     align-items: start;
 }
 
+.tanggal {
+    text-align: right;
+}
+
 @media (max-width: 60em) {
     .wawan {
         grid-gap: 3rem;
@@ -114,9 +118,41 @@ main {
     border-radius: 50%;
     margin: auto;
     margin-top: 5px;
+    transition: 0.2s
 }
 
 .close {
     text-align: center;
     display: none;
 }
+
+
+/*
+@media screen and (max-width: 760px) {
+    .box {
+        padding: 3rem;
+    }
+}
+
+
+/*
+@media screen and (max-width: 760px) {
+    .messagebox {
+        width: 300px;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 20px;
+    }
+    .rtan {
+        width: 150px;
+        height: 150px;
+        margin: 70px auto 0px auto;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .envelope {
+        margin: 150px auto 0px auto;
+    }
+}
+*/
